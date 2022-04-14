@@ -27,9 +27,7 @@ import utils.transformed as transforms
 from data.ImageFolderDataset import MyImageFolder, MyImageFolders
 from models.RevealNet import RevealNet
 import torchvision.models
-from models.preprocessing import preprocessing
 from models.Hidingnet import encoder
-from skimage.util import random_noise
 
 DATA_DIR = '/home/user/Desktop/jjun/trainset'
 
@@ -340,7 +338,7 @@ def train(train_loader, epoch, Enet1, Rnet1, criterion):
     Rlosses1 = AverageMeter()  # record loss of R-net
     Rlosses2 = AverageMeter()
     Rlosses3 = AverageMeter()
-    SumLosses = AverageMeter()  # record Hloss + �*Rloss
+    SumLosses = AverageMeter()  # record Hloss + Rloss
 
     # switch to train mode
     Enet1.train()
