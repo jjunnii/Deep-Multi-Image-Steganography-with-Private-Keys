@@ -26,7 +26,6 @@ from torch.autograd import Variable
 import utils.transformed as transforms
 from data.ImageFolderDataset import MyImageFolder, MyImageFolders
 from models.RevealNet import RevealNet
-from models.discriminator import Discriminator
 import torchvision.models
 from models.preprocessing import preprocessing
 from models.Hidingnet import encoder
