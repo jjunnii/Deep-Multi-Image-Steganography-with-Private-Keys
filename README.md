@@ -9,7 +9,8 @@ This code is the official Code about Deep Multi-Image Steganography with Private
 
 
 # Citation
-```@article{kweon2021deep,  
+```
+@article{kweon2021deep,  
   title={Deep multi-image steganography with private keys},  
   author={Kweon, Hyeokjoon and Park, Jinsun and Woo, Sanghyun and Cho, Donghyeon},  
   journal={Electronics},  
@@ -18,4 +19,5 @@ This code is the official Code about Deep Multi-Image Steganography with Private
   pages={1906},  
   year={2021},  
   publisher={Multidisciplinary Digital Publishing Institute}  
-  }```
+  }
+  ```
